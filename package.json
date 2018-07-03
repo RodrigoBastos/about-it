@@ -1,0 +1,27 @@
+{
+  "name": "about-it",
+  "version": "0.0.1",
+  "description": "About It",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoBastos/about-it.git"
+  },
+  "keywords": [
+    "Service",
+    "About",
+    "It",
+    "Social",
+    "Media",
+    "Crawling"
+  ],
+  "author": "Rodrigo Bastos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoBastos/about-it/issues"
+  },
+  "homepage": "https://github.com/RodrigoBastos/about-it#readme"
+}
