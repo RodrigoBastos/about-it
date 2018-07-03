@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/RodrigoBastos/about-it/issues"
   },
-  "homepage": "https://github.com/RodrigoBastos/about-it#readme"
+  "homepage": "https://github.com/RodrigoBastos/about-it#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
