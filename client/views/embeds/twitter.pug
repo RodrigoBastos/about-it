@@ -1,0 +1,11 @@
+html
+  head
+  body
+    each twit in twits
+      blockquote.twitter-tweet
+        p(lang="pt", dir="ltr")
+        | #{twit.text}
+        | #{twit.name}
+        - var href = "https://twitter.com/" + twit.username + "/status/" + twit.id;
+        a(href=href) July 10, 2018 
+  script(async="", src="https://platform.twitter.com/widgets.js", charset="utf-8")
