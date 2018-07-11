@@ -25,6 +25,12 @@
   },
   "homepage": "https://github.com/RodrigoBastos/about-it#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "q": "^1.5.1",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
   }
 }
