@@ -6,7 +6,7 @@ var T = Twit(keys);
 
 exports.search = function (query) {
   return Q.Promise(function (resolve, reject) {
-    T.get('search/tweets', { q: '"Hand Talk" OR "Libras" OR "" since:2018-07-01', count: 10, lang: 'pt', result_type: 'recent' }, function(err, data, response) {
+    T.get('search/tweets', { q: '"' + query + '" -filter:retweets since:2018-07-10', count: 15, lang: 'pt', result_type: 'recent' }, function(err, data, response) {
       var posts = [];
       
       posts = data.statuses.map(function (post) {
